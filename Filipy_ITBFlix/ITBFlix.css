@@ -1,0 +1,117 @@
+*{
+    border: 3px black;
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: rgb(168, 166, 166);
+}
+header{
+    background-color: #E03C31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 10%;
+    height: 30%;
+    padding: 10px;
+}
+.container_link{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    gap: 50px;
+
+}
+nav li{
+    list-style: none;
+    text-transform: uppercase;
+}
+#peliculas {
+    text-align: start;
+    gap: 40px;
+}
+.container_peliculas{
+    background-color: gold;
+    display: flex; 
+    flex-direction: row ;
+    gap: 10px;
+    width: 100%;
+
+}
+.container_peliculas article *{
+    width: 100%;
+    max-width: 400px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+}
+.container_peliculas p{
+    align-self: flex-start;
+    
+}
+.container_peliculas h3{
+    background-color: #E03C31;
+}
+.container_peliculas img{
+    height: auto;
+    max-height: 390px;
+}
+.container_peliculas h4 {
+    background-color: #85112F;
+}
+
+.container_actores * {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    
+}
+.container_actores h2 {
+    color: white;
+}
+.container_actores h3 {
+    color: white;
+}
+.container_actores article {
+    display: flex;
+    flex-direction: column;
+    
+}
+.container_actores p{
+  color: white;
+  text-align: center;
+}
+.container_actores img{
+    border-radius: 50%;
+    justify-content: space-around;
+    max-width: 100px;
+    max-height: 100px;
+}
+.container_festivales_series{
+    display: flex;
+    border: 1px solid green;
+
+
+}
+.container_festivales {
+    background-color: aqua;
+    width: 30%;
+}
+.container_series{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(68, 0, 255);
+   
+}
+.container_series article {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+    
+}
